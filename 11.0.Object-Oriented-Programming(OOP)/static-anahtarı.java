@@ -3,11 +3,11 @@
 	//oluşturdurduğumuz metod sınıfın genelini ilgilendiryorsa metod static
 	//nesneleri ilgilendiriyorsa non-static olarak oluşturulacak
 	class Ornek{
-		static void A(){
+		public static void A(){
 			System.out.println("static method");
 		}
 		
-		void B(){
+		public void B(){
 			System.out.println("non static");
 		}
 	}
