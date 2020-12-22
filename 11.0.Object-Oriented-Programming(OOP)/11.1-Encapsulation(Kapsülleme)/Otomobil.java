@@ -4,10 +4,10 @@ ilr erişim sağlayarak okuma ve değiştrime işlemleri yapıyoruz.
 */
 
 public class Otomobil{
-	private Sring marka;
+	private String marka;
 	private int model;
 	
-	public Sring getMarka(){
+	public String getMarka(){
 		rerurn marka;
 	}
 	
